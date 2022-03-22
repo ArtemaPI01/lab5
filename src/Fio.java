@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.lang.*;
 
 public class Fio {
     private String name;

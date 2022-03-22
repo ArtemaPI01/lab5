@@ -16,5 +16,9 @@ public class Main {
         home.print();
         home.Poisk("ABS");
         System.out.println(home.Time(20));
+        Boxoffice m = new Boxoffice();
+        m.init(fio, 20, 20);
+        m.print();
+        m.Cloak(100);
     }
 }
