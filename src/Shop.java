@@ -25,7 +25,7 @@ public class Shop {
     }
     public void print() {
         System.out.println("Name: " + name + " type: " + type + " street: " + street+ " time: " + time);
-    }//10:00-10:00
+    }
     public void cloak() {
         String[] data = time.split("-");
         String[] data0 = data[0].split(":");

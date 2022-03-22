@@ -10,6 +10,11 @@ public class Main {
         ashan.enter();
         ashan.print();
         ashan.cloak();
-        
+        Warehouse home = new Warehouse();
+        String[] x = {"ABS", "BSD", "DSE"};
+        home.init(x, 7);
+        home.print();
+        home.Poisk("ABS");
+        System.out.println(home.Time(20));
     }
 }
