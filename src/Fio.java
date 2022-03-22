@@ -12,14 +12,14 @@ public class Fio {
     }
     public void enter(){
         Scanner sc = new Scanner(System.in);
-        System.out.printf("\nВведите имя: ");
+        System.out.println("Vvedite name: ");
         name = sc.nextLine();
-        System.out.printf("\nВведите фамилию: ");
+        System.out.println("Vvedite surname: ");
         surname = sc.nextLine();
-        System.out.printf("\nВведите отчество: ");
+        System.out.println("Vvedite patronymic: ");
         patronymic = sc.nextLine();
     }
     public void print() {
-        System.out.printf("%d %d %d", this.name, this.surname, this.patronymic);
+        System.out.println("Fio: " + name + " " + surname + " " + patronymic);
     }
 }
